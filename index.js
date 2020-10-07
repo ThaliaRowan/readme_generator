@@ -23,6 +23,11 @@ const writeFileAsynch = util.promisify(fs.writeFile);
             
         },
         {
+            type: 'input',
+            name: 'url',
+            message: 'YOur Licence badge?'
+        },
+        {
             type:"input",
             message: "Add your project decription",
             name: "description"
@@ -69,6 +74,8 @@ function generate(answers){
     return `
     
 # ${answers.name}
+
+${answers.url}
 
 
 ## License
