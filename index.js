@@ -12,6 +12,17 @@ const writeFileAsynch = util.promisify(fs.writeFile);
             message: "What is the name of your project?"
         },
         {
+            type: "checkbox",
+            name: 'License',
+            message:'choose your type of license',
+            choices:[
+                'MIT',
+                'APACHE',
+                'none'
+            ]
+
+        },
+        {
             type:"input",
             message: "Add your project decription",
             name: "description"
@@ -29,7 +40,7 @@ const writeFileAsynch = util.promisify(fs.writeFile);
         },
         {
             type: "input",
-            message: "Add your contributer's",
+            message: "Add your contributers",
             name: "collab"
         },
         {
