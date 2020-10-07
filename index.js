@@ -14,11 +14,11 @@ const writeFileAsynch = util.promisify(fs.writeFile);
         {
             type: "checkbox",
             name: 'License',
-            message:'choose your type of license',
+            message:'Do you have a license badge?',
             choices:[
                 'MIT',
                 'GNU',
-                'none'
+                'no'
             ],
             
         },
@@ -79,7 +79,7 @@ ${answers.url}
 
 
 ## License
- ${answers.License} 
+This uses ${answers.License} License
     
 ## Description
  ${answers.description}
