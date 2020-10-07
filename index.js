@@ -60,20 +60,20 @@ function generate(answers){
 ## ${answers.name}
 
 
-# License
+## License
 license here 
     
+##Description
  ${answers.description}
     
-# Table of Contents
+## Table of Contents
 
-* Intsallation
-* Usage
-* Contributing
-* Tests
-* QuestionsMy
+* [Intsallation](##Installation)
+* [Usage](##Usage)
+* [Contributing](##Contributing)
+* [Tests](##Tests)
+* [Questions](##Questions)
     
-# Installation
 ${answers.installation}
     
     

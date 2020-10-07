@@ -10,11 +10,11 @@ license here
     
 ## Table of Contents
 
-* [Intsallation](Installation)
-* Usage
-* Contributing
-* Tests
-* [QuestionsMy](https://github.com/ThaliaRowan/readme_generator)
+* [Intsallation](##Installation)
+* [Usage](##Usage)
+* [Contributing](##Contributing)
+* [Tests](##Tests)
+* [Questions](##Questions)
     
 ## Installation
 just download
