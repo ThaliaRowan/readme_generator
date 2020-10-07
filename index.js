@@ -77,19 +77,19 @@ license here
 ${answers.installation}
     
     
-# Usage
+## Usage
     
 ${answers.usage}
     
-# Contributing
+## Contributing
 ${answers.collab}
 
-# Tests
+## Tests
 ${answers.test}
-# Questions
+## Questions
 
-${answers.email}
-${answers.myGit}
+* ${answers.email}
+* ${answers.myGit}
     
     `;
 }
