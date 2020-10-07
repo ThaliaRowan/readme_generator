@@ -17,10 +17,10 @@ const writeFileAsynch = util.promisify(fs.writeFile);
             message:'choose your type of license',
             choices:[
                 'MIT',
-                'APACHE',
+                'GNU',
                 'none'
-            ]
-
+            ],
+            
         },
         {
             type:"input",
@@ -68,13 +68,13 @@ const writeFileAsynch = util.promisify(fs.writeFile);
 function generate(answers){
     return `
     
-## ${answers.name}
+# ${answers.name}
 
 
 ## License
-license here 
+ ${answers.License} 
     
-##Description
+## Description
  ${answers.description}
     
 ## Table of Contents
@@ -84,7 +84,9 @@ license here
 * [Contributing](##Contributing)
 * [Tests](##Tests)
 * [Questions](##Questions)
-    
+
+## Installation
+
 ${answers.installation}
     
     
