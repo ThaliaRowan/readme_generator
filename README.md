@@ -28,7 +28,7 @@ none
 
 ![](./assets/rg.png)
 ![](./assets/rg2.png)
-![](./assets/rg3.png)
+![]
 
     
 ## Contributing
