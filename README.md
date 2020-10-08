@@ -6,7 +6,7 @@
 
 
 ## License
-This uses  License
+This uses no License
     
 ## Description
  Generates a readme file.
