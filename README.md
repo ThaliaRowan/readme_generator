@@ -1,15 +1,15 @@
 
     
-# myProject
+# ReadMe generator
 
 
 
 
 ## License
-This uses MIT License
+This uses  License
     
 ## Description
- 
+ Generates a readme file.
     
 ## Table of Contents
 
@@ -21,21 +21,24 @@ This uses MIT License
 
 ## Installation
 
-
+none
     
     
 ## Usage
-    
+
+![](./assets/rg.png)
+![](./assets/rg2.png)
+![](./assets/rg3.png)
 
     
 ## Contributing
-
+none
 
 ## Tests
 
 ## Questions
 
-* 
-* 
+* thalia.rowan@gmail.com
+* thaliaRowan
     
     

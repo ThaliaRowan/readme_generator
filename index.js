@@ -62,7 +62,7 @@ const writeFileAsynch = util.promisify(fs.writeFile);
         {
             type: "input",
             name: "myGit",
-            message: "What is yout github"
+            message: "What is your github?"
         }
     ])
 }
@@ -119,7 +119,7 @@ async function init(){
         const answers = await promptReadme();
 
         const generated = generate(answers);
-        await writeFileAsynch('README.md', generated);
+        await writeFileAsynch('readME.md', generated);
 
         console.log('Success')
     } catch(err){
