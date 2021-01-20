@@ -2,7 +2,7 @@
     
 # ReadMe generator
 
-
+A CLI that generates a readme
 
 
 ## License
